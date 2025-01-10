@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        table{background-color:rgb(255, 255, 255);}
+        
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr> 
+                    <td>First Name:</td>
+                    <td><input type="text"name="firstname"required></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text"name="lastname"required></td> 
+                </tr>
+<tr>
+    <td>email :</td>
+                    <td><input type="text"name="email"required></td> 
+</tr>
+<tr><td>phone :</td>
+    <td><input type="text"name="phone"required></td> </tr>
+            </table>
+        
+        <legend>Academic details</legend>
+        <table>
+            <tr>
+                <td>roll number:</td>
+                    <td><input type="number"name="rollnumber"required></td> 
+            </tr>
+            <tr>
+                <td>Department:</td>
+                <td>
+                    <select name="department"required>
+                        <option value="">Select</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="mech">Mechanical</option>
+                        <option value="elec">electrical</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Year:</td>
+                <td>
+                    <input type ="radio" name="year" value="1st" required>1st Year
+                    <input type ="radio" name="year" value="2nd" >2nd Year
+                    <input type ="radio" name="year" value="3rd" >3rd Year
+                </td>
+                </tr>
+                </table>
+                <table>
+                    <legend>Interests</legend>  
+                <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type ="checkbox" name="hobby" value="sports">Sports
+                    <input type ="checkbox" name="hobby" value="Music" >music
+                    <input type ="checkbox" name="hobby" value="reading" >reading
+
+                </td>
+            
+            </tr>
+            </table>
+            <tr>
+                <td>Comments:</td>
+                <td><textarea name="comments"rows="3"placeholder="write something"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <form>
+        <fieldset>
+            <legend>actions:</legend>
+            <table>
+                <tr>
+                    <td colspan="2" style="text-align:center;">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="resett"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <button onclick=>Submit</button>
+    </form>
+</body>
+</html>
