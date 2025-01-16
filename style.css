@@ -1,11 +1,49 @@
-<html>
-    <head>
-        <link rel="stylesheet"href"style.css">
+h1 {text-align: center;margin:25px 50px 75px 100px;}
+  
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+  p {text-align: center;
+  margin:25px 50px 75px 100px;}
+  img{
+width:25%}
+h2 {text-align: center;margin:25px 50px 75px 100px;}
+button{background-color:rgb(2, 59, 2)}
+@media only screen and (max-width: 600px)
+body{min-width: 80;}
 
-    </head>
-    {
-        body{background-color:powderblue;}
-    h1{color:rgb(0, 247, 255);}
-    p{color:red;}}
-    
-</html>
+    table,th,td{
+      border:1px solid black;} 
+      table.center {
+        
+        margin-left: auto;
+        margin-right: auto;
+         
+      }
+      a{color:aliceblue;}
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+        position:fixed;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {color:black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 158.5px;
+        background-color: #ebe4e4;
+       
+      }
+      h3 {text-align: center;margin:25px 50px 75px 100px;color:aliceblue;}
